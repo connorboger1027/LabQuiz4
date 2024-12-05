@@ -1,0 +1,22 @@
+class Dog:
+    name = ""
+    age = 1
+    status = "" #These are attributes (including defaults)
+    
+    def __init__(self, dog_name):
+        self.name = dog_name
+        print("The object has been created")
+        
+    def __str__(self):
+        return f"{self.name} is {self.age} years old and is {self.status}"
+    
+    def sit(self):
+        self.status = "sitting"
+        print(self.name,"is",self.status) #Method 1
+    
+    def bark(self):
+        print(self.name,"is barking!") # Method 2
+        
+    def birthday(self):
+        self.age+=1
+        print(self.name, "is now", self.age) #Method 3
