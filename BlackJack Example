@@ -1,0 +1,9 @@
+from cards import Card
+from cards import Deck
+
+deck1 = Deck()
+deck1.shuffle()
+card1 = deck1.deal()
+card2 = deck1.deal()
+print(card1)
+print(card2)
