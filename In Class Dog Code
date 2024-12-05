@@ -1,0 +1,19 @@
+from dog_module import Dog
+
+
+dog3 = Dog
+dog3 = Dog("John")
+dog3.sit()
+print(dog3)
+
+dog1 = Dog()
+dog1.name = "Lassie"
+print(dog1.name)
+dog1.age = 7
+dog1.bark()
+dog1.sit()
+dog1.birthday()
+
+dog2 = Dog()
+dog2.name = "Shadow"
+dog2.birthday()
