@@ -17,3 +17,13 @@ my_account.withdraw(5)
 my_account.deposit(15)
 print(my_account)
 # print(my_account.getBalance)
+
+
+# hawkbank = Bank()
+# hawkbank.add(SA("Jan Jensen", "1111", 20000))
+# hawkbank.add(SA("Fran McCaffery", "2222", 15000))
+# print(hawkbank)
+
+# account1 = hawkbank.get("Jan Jensen", "1111")
+# account1.deposit(5000)
+# print(account1)
