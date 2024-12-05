@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Dec  2 10:59:33 2024
+
+@author: conno
+"""
+
+
+# Hello World
+
+from savings_account_template import SavingsAccount as SA
+
+my_account = SA("Connor Boger", "1027", 25)
+# print(my_account)
+# my_account.deposit(100)
+my_account.withdraw(5)
+my_account.deposit(15)
+print(my_account)
+# print(my_account.getBalance)
